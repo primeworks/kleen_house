@@ -1,0 +1,25 @@
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+
+.page{
+	background-color: transparent;
+	background-image: url(../images/global/Teknokleen-group-Background-image.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+.navigation{
+	border-top-width: thin;
+	border-top-style: solid;
+	border-top-color: #e7e7e7;
+}
+
+.navigation a {
+	padding-top: 19px;
+	display: inline-block;
+	padding-bottom: 38px;
+	padding-left: 19px;
+	padding-right: 17px;
+	font-size: 10px;
+	text-transform: uppercase;
+}
